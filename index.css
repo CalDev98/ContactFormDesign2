@@ -1,0 +1,146 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box; 
+}
+
+.container {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	background-color: lightgray;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container-inner {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.form-container {
+	position: absolute;
+	width: 800px;
+	height: 70vh;
+	background-color: #fff;
+	border-radius: 5px;
+}
+
+.circle-container {
+	position: absolute;
+
+}
+
+.circle {
+	display: flex;
+	justify-content: space-between;
+}
+
+.red {
+	border-radius: 200px;
+	background-color: red;
+	width: 320px;
+	height: 320px;
+	transform: translate(-165px, 265px);
+}
+
+.orange {
+	border-radius: 200px;
+	background-color: orange;
+	width: 100px;
+	height: 100px;
+	transform: translate(115px, 340px);
+}
+
+.purple {
+	border-radius: 900px;
+	background-color: purple;
+	width: 670px;
+	height: 700px;
+	transform: translate(290px, 95px);
+}
+
+.aqua {
+	border-radius: 200px;
+	background-color: aqua;
+	width: 250px;
+	height: 250px;
+	transform: translate(120px, -390px);
+}
+
+.form-container-inner {
+	width: 100%;
+}
+
+
+h1, label, input {
+	display: block;
+}
+
+h1 {
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-size: 1.5rem;
+	margin: 50px 0px 65px 50px;
+}
+
+label {
+	letter-spacing: 1.1px;
+	text-transform: uppercase;
+	margin-top: 30px;
+}
+
+input {
+	width: 90%;
+	height: 20px;
+	border: none;
+	border-bottom: 2px solid rgba(0,0,0, 0.3);
+	background-color: transparent;
+	outline: none;
+	font-size: 1.1em;
+	margin-top: 5px;
+}
+
+.txt2 {
+	display: flex;
+	justify-content: center;
+	text-transform: uppercase;
+	margin-top: 40px;
+}
+
+.btn-container {
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	bottom: 0;
+}
+
+button {
+	width: 400px;
+	height: 55px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	border:none;
+	outline: none;
+	box-shadow: none;
+	cursor: pointer;
+}
+
+.register-btn {
+	text-align: left;
+	padding-left: 15px;
+}
+
+.login-btn {
+	text-align: right;
+	color: #fff;
+	background-color: skyblue;
+	padding-right: 15px;
+}
+
+.form-inputs {
+	margin: 50px;
+}
